@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+#table, td {
+  color : white;
+  padding: 15px;
+  width: 25%;
+}
+
+#th{
+  padding: 15px;
+}
+
+.pageAnimation:hover{
+  background-color: slategray;
+  border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  animation: anim;
+  animation-duration: 1s;
+}
+
+.pageAnimation{
+  padding-left: 9px;
+}
